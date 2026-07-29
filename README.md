@@ -2,7 +2,7 @@
 
 브라우저에서 바로 즐기는 3D 카트 레이싱 게임입니다. 게임 엔진 없이 Three.js로 직접 만들었고, 효과음과 BGM도 Web Audio API로 합성했습니다.
 
-**▶ [플레이하기](https://carrot-50.github.io/skyline-kart/)**
+**▶ [플레이하기](https://carrot-50.github.io/skyline-kart/skyline-kart-dist/)**
 
 ## 조작
 
