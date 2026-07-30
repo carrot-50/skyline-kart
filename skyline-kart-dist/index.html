@@ -9,9 +9,9 @@
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#0d1620" />
     <title>Skyline Kart</title>
-    <script type="module" crossorigin src="./assets/index-CCzdU1_t.js"></script>
+    <script type="module" crossorigin src="./assets/index-BPtiQfwv.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/three-BHeY321p.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-DtAhOb4o.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-JkSEm0RF.css">
   </head>
   <body>
     <div id="app"></div>
@@ -19,8 +19,15 @@
       <div class="rotate-hint__icon">📱↻</div>
       <strong>가로로 돌려주세요</strong>
       <span>레이싱 게임이라 가로 화면이 훨씬 편합니다.<br />
-      기기를 눕히거나 화면 회전 잠금을 풀어주세요.</span>
-      <button class="rotate-hint__dismiss" type="button" data-rotate-dismiss>이대로 진행하기</button>
+      아래 버튼을 누르거나, 기기를 눕혀주세요.</span>
+      <div class="rotate-hint__actions">
+        <button class="rotate-hint__go" type="button" data-rotate-go>가로 전체화면으로</button>
+        <button class="rotate-hint__dismiss" type="button" data-rotate-dismiss>이대로 진행하기</button>
+      </div>
+      <small class="rotate-hint__note" data-rotate-note hidden>
+        기기의 <b>화면 회전 잠금</b>이 켜져 있으면 돌아가지 않습니다.<br />
+        제어센터(iPhone) 또는 빠른 설정(Android)에서 자동 회전을 켜주세요.
+      </small>
     </div>
   </body>
 </html>
